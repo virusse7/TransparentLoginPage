@@ -10,6 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     };
 
     body {
-        background-color: ${({ theme }) => theme.color.gray};
+        background-color: ${({ theme }) => theme.color.white};
     }
 `
