@@ -1,15 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-    html {
-        box-sizing: border-box;
-    };
-
     *, *:before, *:after {
-        box-sizing: inherit;    
+        box-sizing: border-box; 
+        margin: 0;
+        padding: 0;   
+        font-family: sans-serif;
     };
 
-    body {
-        background-color: ${({ theme }) => theme.color.white};
-    }
-`
+    `
