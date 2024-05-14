@@ -1,14 +1,11 @@
-import { Title } from "./styled";
-import { CalendarGrid } from "./CalendarGrid/CalendarGrid";
+import { LoginPage } from "./LoginPage/LoginPage";
+import { FullScreenContainer } from "./styled";
 
 function App() {
   return (
-    <div className="App">
-      <Title>
-        Calendar
-      </Title>
-      <CalendarGrid />
-    </div>
+    <FullScreenContainer>
+      <LoginPage />
+    </FullScreenContainer>
   );
 }
 
